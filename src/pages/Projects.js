@@ -1,20 +1,41 @@
 function Projects() {
   return (
     <div className="container">
-      <h1>My Projects</h1>
 
-      <div className="project-card">
-        <h3>Project 1</h3>
-        <a href="https://github.com/PreetamReddy26/numpy-neural-network" target="_blank">
-          View on GitHub
-        </a>
-      </div>
+      <h1 className="project-title">My Projects</h1>
 
-      <div className="project-card">
-        <h3>Project 2</h3>
-        <a href="https://github.com/PreetamReddy26/hello-world" target="_blank">
-          View on GitHub
-        </a>
+      <div className="project-grid">
+
+        <div className="project-card">
+          <h3>Neural Network (NumPy)</h3>
+          <p>
+            Built a neural network from scratch using NumPy to understand
+            deep learning fundamentals.
+          </p>
+          <a 
+            href="https://github.com/PreetamReddy26/numpy-neural-network" 
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            🔗 View Project
+          </a>
+        </div>
+
+        <div className="project-card">
+          <h3>Hello World Project</h3>
+          <p>
+            A basic project to understand GitHub workflow, version control,
+            and deployment.
+          </p>
+          <a 
+            href="https://github.com/PreetamReddy26/hello-world" 
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            🔗 View Project
+          </a>
+        </div>
+
       </div>
 
     </div>
