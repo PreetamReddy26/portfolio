@@ -1,6 +1,6 @@
 function Projects() {
   return (
-    <div className="container">
+    <div className="container fade-in">
 
       <h1 className="project-title">My Projects</h1>
 
@@ -24,8 +24,7 @@ function Projects() {
         <div className="project-card">
           <h3>Hello World Project</h3>
           <p>
-            A basic project to understand GitHub workflow, version control,
-            and deployment.
+            A simple project to understand GitHub workflow and version control.
           </p>
           <a 
             href="https://github.com/PreetamReddy26/hello-world" 
