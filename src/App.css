@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Poppins', sans-serif;
   background: linear-gradient(135deg, #1f1c2c, #928dab);
-  color: #fff;
+  color: white;
 }
 
 /* Navbar */
@@ -10,57 +10,65 @@ nav {
   display: flex;
   justify-content: center;
   gap: 30px;
-  padding: 20px;
-  background: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  background: rgba(0,0,0,0.3);
 }
 
 nav a {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  font-size: 18px;
 }
 
 nav a:hover {
   color: #00f5d4;
 }
 
-/* Main container */
+/* Container */
 .container {
-  max-width: 800px;
-  margin: 50px auto;
-  background: rgba(255, 255, 255, 0.1);
-  padding: 30px;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* Hero Card */
+.hero {
+  text-align: center;
+  background: rgba(255,255,255,0.08);
+  padding: 40px;
   border-radius: 15px;
   backdrop-filter: blur(10px);
-  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero h2 {
+  color: #00f5d4;
 }
 
 /* Sections */
 .section {
-  margin-top: 25px;
+  margin-top: 30px;
+  background: rgba(255,255,255,0.08);
+  padding: 20px;
+  border-radius: 10px;
 }
 
-h1 {
-  font-size: 32px;
-  margin-bottom: 20px;
-}
-
-h2 {
+.section h2 {
   color: #00f5d4;
 }
 
-/* List */
-ul {
-  list-style: none;
-  padding: 0;
+/* Project cards */
+.project-card {
+  background: rgba(255,255,255,0.08);
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 10px;
 }
 
-li {
-  margin: 8px 0;
-}
-
-/* Links */
-a {
+.project-card a {
   color: #00f5d4;
+  text-decoration: none;
 }

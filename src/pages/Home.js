@@ -1,7 +1,12 @@
 function Home() {
   return (
     <div className="container">
-      <h1>Welcome to My Portfolio</h1>
+
+      <div className="hero">
+        <h1>Hi, I'm Preetam 👋</h1>
+        <h2>Aspiring UI/UX Designer</h2>
+        <p>I build clean and modern web experiences.</p>
+      </div>
 
       <div className="section">
         <h2>About Me</h2>
@@ -19,10 +24,11 @@ function Home() {
           <li>Name: Preetam Reddy Methukupally</li>
           <li>Phone: 9515987442</li>
           <li>Email: preetamreddy2601@gmail.com</li>
-          <li>College Email: Se23ucse145@mahindrauniversity.edu.in</li>
+          <li>College Email: se23ucse145@mahindrauniversity.edu.in</li>
           <li>Skills: React, C</li>
         </ul>
       </div>
+
     </div>
   );
 }

@@ -6,8 +6,8 @@ import Projects from "./pages/Projects";
 function App() {
   return (
     <HashRouter>
-      <nav>
-        <NavLink to="/">Home</NavLink> |{" "}
+      <nav className="navbar">
+        <NavLink to="/">Home</NavLink>
         <NavLink to="/projects">Projects</NavLink>
       </nav>
 
